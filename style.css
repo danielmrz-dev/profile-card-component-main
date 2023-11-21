@@ -1,0 +1,156 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100;200;300;400;500;600;700;800&display=swap');
+
+:root {
+    --Dark-cyan: #19a2ae;
+    --Light-cyan: #98eff7;
+    --Very-dark-desaturated-blue: #2e3347;
+    --Dark-gray: #969696;
+    --Gray-border: #96969629;
+    --Dark-grayish-blue: #6b7082;
+    --Blue: #3e52a3;
+    --White: #ffffff;
+    --Font-Kumbh-Sans: 'Kumbh Sans';
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans';
+    font-size: 1em;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: var(--Dark-cyan) url(images/bg-pattern-top.svg) repeat;
+    background-size: cover;
+    background-position-x: 50vw;
+    background-position-y: 50vh;
+}
+
+.principal {
+    background-color: var(--White);
+    border-radius: 15px;
+    width: 340px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+.bg > img {
+    height: 150px;
+    border-radius: 15px 15px 0 0;
+    width: 340px;
+}
+
+.foto {
+    width: 110px;
+    border: 5px solid var(--White);
+    border-radius: 50%;
+    position: absolute;
+    top: 95px;    
+}
+
+.nome {
+    display: flex;
+    gap: 8px;
+    margin: 3.5em auto .3em;
+    font-size: 1.1em;
+    font-weight: 800;
+}
+
+.nome > strong {
+    color: var(--Dark-gray);
+    font-weight: 600;
+}
+
+.location {
+    font-size: .9em;
+    color: var(--Dark-gray);
+    font-weight: 600;
+    padding-bottom: 1.7em;
+}
+
+.numbers {
+    width: 100%;
+    padding: 1em;
+    display: flex;
+    justify-content: space-around;
+    border-top: 2px solid var(--Gray-border);
+}
+
+.data {
+    padding: .4em 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.number {
+    font-size: 1.1em;
+}
+
+.flp {
+    color: var(--Dark-gray);
+    font-size: .6em;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+
+.rodape {
+    font-size: .7em;
+    padding: 1.5em;
+    color: var(--White);
+}
+
+.rodape a {
+    text-decoration: none;
+    color: var(--Light-cyan);
+}
+
+.rodape a:hover {
+    text-decoration: underline;
+    color: var(--White);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
