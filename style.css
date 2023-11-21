@@ -28,10 +28,10 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background: var(--Dark-cyan) url(images/bg-pattern-top.svg) repeat;
-    background-size: cover;
-    background-position-x: 50vw;
-    background-position-y: 50vh;
+    background-color: var(--Dark-cyan);
+    background-image: url("./images/bg-pattern-top.svg"), url("./images/bg-pattern-bottom.svg");
+    background-repeat: no-repeat, no-repeat;
+    background-position: right 52vw bottom 35vh, left 48vw top 52vh;
 }
 
 .principal {
